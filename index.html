@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Bot Cyhome</title>
+    <title>Welcome to CyHome</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,82 +11,26 @@
             padding: 0;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            margin-bottom: 3rem;
         }
-        .header h1 {
+        h1 {
             color: #2c3e50;
             font-size: 2.5rem;
-            margin-bottom: 1rem;
         }
-        .header p {
+        p {
             color: #34495e;
             font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        .feature-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-        .feature-card h3 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-        }
-        .feature-card p {
-            color: #7f8c8d;
-            line-height: 1.6;
-        }
-        .chat-container {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Chat Bot Cyhome</h1>
-            <p>Trợ lý thông minh của bạn, luôn sẵn sàng hỗ trợ 24/7</p>
-        </div>
-
-        <div class="features">
-            <div class="feature-card">
-                <h3>Hỗ trợ 24/7</h3>
-                <p>Bot luôn sẵn sàng để trả lời các câu hỏi và hỗ trợ bạn mọi lúc mọi nơi.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Thông minh & Nhanh chóng</h3>
-                <p>Trả lời tức thì với độ chính xác cao, giúp bạn tiết kiệm thời gian.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Dễ sử dụng</h3>
-                <p>Giao diện thân thiện, dễ dàng tương tác và nhận được hỗ trợ.</p>
-            </div>
-        </div>
+    <div>
+        <h1>Chào mừng đến với CyHome!</h1>
+        <p>Trợ lý thông minh của bạn, luôn sẵn sàng hỗ trợ 24/7.</p>
     </div>
-
     <div class="chat-container">
         <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.2.0-beta.5/libs/oversea/index.js"></script>
         <script src="script.js"></script>

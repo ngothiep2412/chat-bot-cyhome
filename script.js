@@ -43,4 +43,7 @@ function startChat() {
             },
         });
     }
-} 
+}
+
+// Khởi động chat bot ngay khi trang được tải
+window.onload = startChat; 
