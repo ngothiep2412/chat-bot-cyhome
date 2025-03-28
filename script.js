@@ -7,7 +7,7 @@ function startChat() {
                 bot_id: '7486049271679500306',
             },
             componentProps: {
-                title: 'CyHome Shop',
+                title: 'CyHome',
             },
             auth: {
                 type: 'token',
