@@ -11,9 +11,9 @@ function startChat() {
             },
             auth: {
                 type: 'token',
-                token: 'pat_UNqLvI7K0fFE7yGg2CACJxSvinBmxIBkhofNFCeTX2fw3MwkN1liBlY2K0POSRw9',
+                token: 'pat_1aDSZAtbbzGKSGKlxJrWlTiSK3eHhOtkVyY9ikGtDoL3clJUor2ZAxDzQPZFSvEn',
                 onRefreshToken: function () {
-                    return 'pat_UNqLvI7K0fFE7yGg2CACJxSvinBmxIBkhofNFCeTX2fw3MwkN1liBlY2K0POSRw9'
+                    return 'pat_1aDSZAtbbzGKSGKlxJrWlTiSK3eHhOtkVyY9ikGtDoL3clJUor2ZAxDzQPZFSvEn'
                 }
             },
             userInfo: { 
